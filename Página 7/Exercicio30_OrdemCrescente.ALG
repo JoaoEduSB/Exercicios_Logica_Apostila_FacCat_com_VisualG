@@ -1,15 +1,20 @@
 Algoritmo "FACCAT_PAG5_EX30"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 13/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   valor1, valor2, valor3, menorValor, maiorValor, segundoValor, soma: inteiro
+// Seção de Declarações das variáveis
+valor1, valor2, valor3, menorValor, maiorValor, segundoValor: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   
+// 30) Ler 3 valores (considere que não serão informados valores iguais) e
+// escrevê-los em ordem crescente.
+
    escreval("Vamos ler 3 valores e informa-los em ordem crescente")
 
    Escreva("Digite o primeiro valor: ")
@@ -86,10 +91,5 @@ Inicio
    escreval
 
    escreval("Em ordem crescente: ",menorValor,", ", segundoValor, ", ",maiorValor)
-
-
-
-
-
 
 Fimalgoritmo

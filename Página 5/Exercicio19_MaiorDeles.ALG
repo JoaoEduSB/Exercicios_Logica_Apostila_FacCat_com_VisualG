@@ -1,16 +1,19 @@
 Algoritmo "FACCAT_PAG5_EX19"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 09/04/2024
 
 Var
-   // Seção de Declarações das variáveis
-   numero1, numero2: inteiro
+// Seção de Declarações das variáveis
+numero1, numero2: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+// 19) Ler dois valores (considere que não serão lidos valores iguais) e
+// escrever o maior deles.
 
    Escreval("Vamos ler dois valores e exibir o maior")
    
@@ -32,13 +35,9 @@ Inicio
    fimenquanto
 
    se numero1 > numero2 entao
-      escreval("O numero",numero1," é maior que o", numero2)
+      escreval("O número",numero1," é maior que o", numero2)
    senao
-      escreval("O numero",numero2," é maior que o", numero1)
+      escreval("O número",numero2," é maior que o", numero1)
    fimse
-
-
-
-
 
 Fimalgoritmo

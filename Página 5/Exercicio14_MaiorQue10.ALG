@@ -1,16 +1,20 @@
 Algoritmo "FACCAT_PAG5_EX14"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 09/04/2024
 
 Var
-   // Seção de Declarações das variáveis
-   numero: inteiro
+// Seção de Declarações das variáveis
+numero: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   
+// 14) Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for
+// maior que 10, caso contrário escrever NÃO É MAIOR QUE 10!
+
    Escreval("Vamos ler um número e dizer se é maior ou menor que 10")
    escreva("Digite o número: ")
    leia (numero)

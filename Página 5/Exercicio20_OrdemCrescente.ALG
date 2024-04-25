@@ -1,16 +1,19 @@
 Algoritmo "FACCAT_PAG5_EX20"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 09/04/2024
 
 Var
-   // Seção de Declarações das variáveis
-   numero1, numero2: inteiro
+// Seção de Declarações das variáveis
+numero1, numero2: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+// 20) Ler dois valores (considere que não serão lidos valores iguais) e
+// escrevê-los em ordem crescente.
 
    Escreval("Vamos ler dois valores e exibi-los em ordem crescente")
    
@@ -36,9 +39,5 @@ Inicio
    senao
       escreval("Em ordem crescente o",numero1," vem primeiro do que o", numero2)
    fimse
-
-
-
-
 
 Fimalgoritmo

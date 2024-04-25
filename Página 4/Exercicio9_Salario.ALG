@@ -1,13 +1,13 @@
 Algoritmo "FACCAT_PAG4_EX9"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 09/04/2024
 
 Var
 // Seção de Declarações das variáveis
-SalarioAtual, reajuste, novoSalario: real
+salarioAtual, reajuste, novoSalario: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 

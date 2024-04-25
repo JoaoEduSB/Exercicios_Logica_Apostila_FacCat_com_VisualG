@@ -1,8 +1,8 @@
 Algoritmo "FACCAT_PAG4_EX11"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 09/04/2024
 
 Var
@@ -20,7 +20,7 @@ Inicio
 // suas vendas, o salário fixo e o valor que ele recebe por carro vendido.
 // Calcule e escreva o salário final do vendedor.
 
-   Escreval("Vamos calcular o valor de do salário dos vendedores")
+   Escreval("Vamos calcular o valor do salário dos vendedores")
 
    escreva("Quantos carros foram vendidos pelo funcionário?: ")
    leia(quantCarro)
@@ -40,4 +40,5 @@ Inicio
    salarioTotal <- salarioFixo + comissaoFixa + comissaoValor
    
    Escreval("O salário total do funcionário é: ", salarioTotal)
+   
 Fimalgoritmo

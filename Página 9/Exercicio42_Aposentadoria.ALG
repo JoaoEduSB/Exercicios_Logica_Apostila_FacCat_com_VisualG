@@ -1,16 +1,30 @@
 Algoritmo "FACCAT_PAG5_EX42"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 13/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   codigoFuncionario: caractere
-   anoNasc, anoIngresso, totalAnos, idade: inteiro
+// Seção de Declarações das variáveis
+codigoFuncionario: caractere
+anoNasc, anoIngresso, totalAnos, idade: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   
+// 42) Uma empresa quer verificar se um empregado está qualificado para a
+// aposentadoria ou não. Para estar em condições, um dos seguintes requisitos
+// deve ser satisfeito:
+// - Ter no mínimo 65 anos de idade.
+// - Ter trabalhado no mínimo 30 anos.
+// - Ter no mínimo 60 anos e ter trabalhado no mínimo 25 anos.
+
+// Com base nas informações acima, faça um algoritmo que leia: o número do
+// empregado (código), o ano de seu nascimento e o ano de seu ingresso na
+// empresa. O programa deverá escrever a idade e o tempo de trabalho do
+// empregado e a mensagem 'Requerer aposentadoria' ou 'Não requerer'.
+   
    escreval("Vamos avaliar se o empregado pode requerer a aposentadoria")
 
    escreva("Digite o seu código de funcionário (número): ")
@@ -44,4 +58,3 @@ Inicio
    escreval("O funcionário tem:", totalAnos," anos de empresa")
 
 Fimalgoritmo
-

@@ -1,16 +1,23 @@
 Algoritmo "FACCAT_PAG5_EX35"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 13/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   tipoCombustivel: caractere
-   quantLitros, preco, desconto, semDesconto: real
+// Seção de Declarações das variáveis
+tipoCombustivel: caractere
+quantLitros, preco, desconto, semDesconto: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   
+// 35) Escreva um algoritmo que leia o número de litros vendidos e o tipo de
+// combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule
+// e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro
+// da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90.
+
    escreval("Vamos calcular o valor do preço do combustível de um posto")
 
    escreval("Escolha o tipo de combustível desejado")
@@ -58,8 +65,8 @@ Inicio
       semDesconto <- quantLitros * 3.3
    fimse
 
+  escreval("Valor Original: ", semDesconto:4:2)
   escreval("Preço a pagar: ", preco:4:2)
   escreval("Desconto total: ", desconto:4:2)
-  escreval("Preço sem desconto: ", semDesconto:4:2)
 
 Fimalgoritmo

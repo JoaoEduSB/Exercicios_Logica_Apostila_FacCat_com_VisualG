@@ -1,15 +1,21 @@
 Algoritmo "FACCAT_PAG5_EX41"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 13/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   nota1, nota2, nota3, notaMediaEx, mediaAproveitamento: real
+// Seção de Declarações das variáveis
+nota1, nota2, nota3, notaMediaEx, mediaAproveitamento: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+// 41) Faça um algoritmo para ler as 3 notas obtidas por um aluno nas 3
+// verificações e a média dos exercícios que fazem parte da avaliação.
+// Calcular a média de aproveitamento
+
    escreval("Vamos ler as 3 notas de um aluno e a média dos seus exercícios")
 
    escreva("Digite a primeira nota: ")
@@ -61,4 +67,3 @@ Inicio
    fimse
 
 Fimalgoritmo
-

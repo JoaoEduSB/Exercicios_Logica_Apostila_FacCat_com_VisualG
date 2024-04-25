@@ -1,15 +1,20 @@
 Algoritmo "FACCAT_PAG5_EX28"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 13/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   valor1, valor2, valor3, menorValor, maiorValor: inteiro
+// Seção de Declarações das variáveis
+valor1, valor2, valor3, menorValor, maiorValor: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   
+// 28) Ler 3 valores (considere que não serão informados valores iguais) e
+// escrever o maior deles.
+
    escreval("Vamos ler 3 valores e informar o maior deles")
 
    Escreva("Digite o primeiro valor: ")
@@ -74,9 +79,4 @@ Inicio
    escreval("O maior valor entre os 3 é: ", maiorValor)
    escreval("O menor valor entre os 3 é: ", menorValor)
 
-
-
-
-
-   
 Fimalgoritmo

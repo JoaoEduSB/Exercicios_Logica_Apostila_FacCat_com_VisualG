@@ -1,16 +1,22 @@
 Algoritmo "FACCAT_PAG5_EX31"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 13/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   ladoEsq, ladoDir, base, somaEsq, somaDir, somaBase: real
-   logEsq, logDir, logBase: logico
+// Seção de Declarações das variáveis
+ladoEsq, ladoDir, base, somaEsq, somaDir, somaBase: real
+logEsq, logDir, logBase: logico
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   
+//31) Ler 3 valores (A, B e C) representando as medidas dos lados de um
+// triângulo e escrever se formam ou não um triângulo. OBS: para formar um
+// triângulo, o valor de cada lado deve ser menor que a soma dos outros 2 lados.
+
    escreval("Vamos ler 3 valores referente aos lados de um triângulo")
    escreval("e informar se forma um triângulo")
 
@@ -23,7 +29,7 @@ Inicio
    escreva("Digite o valor que representa a base: ")
    leia(base)
 
-   // validação lado esquerdo   (Base + lado Direto)
+   // validação lado esquerdo   (Base + lado Direito)
 
    somaEsq <- base + ladoDir
 

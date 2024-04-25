@@ -1,15 +1,14 @@
 Algoritmo "FACCAT_PAG4_EX10"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 09/04/2024
 
 Var
 // Seção de Declarações das variáveis
-custocarro: inteiro
+custoCarro: inteiro
 valorFinal: real
-
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 

@@ -1,22 +1,22 @@
 Algoritmo "FACCAT_PAG5_EX16"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 09/04/2024
 
-//16) As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia,
-// e R$ 1,00 se forem compradas pelo menos 12. Escreva um programa que
-// leia o número de maçãs compradas, calcule e escreva o custo total da compra.
-
 Var
-   // Seção de Declarações das variáveis
-   macas, bananas: caractere
-   quantMacas, quantBananas: inteiro
-   valorMacas, valorBananas, valorCompras: real
+// Seção de Declarações das variáveis
+macas, bananas: caractere
+quantMacas, quantBananas: inteiro
+valorMacas, valorBananas, valorCompras: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+// 16) As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e
+// R$ 1,00 se forem compradas pelo menos 12. Escreva um programa que leia o
+// número de maçãs compradas, calcule e escreva o custo total da compra.
 
    Escreval("Vamos calcular valores de uma compra de frutas com maças e bananas")
 
